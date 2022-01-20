@@ -74,7 +74,8 @@ export class SamplePage extends LitElement {
           id="inputTextarea"
           label="D2L Textarea:"
           placeholder="Type here..."
-          @change=${this.handleTextareaChange}>
+          @change=${this.handleTextareaChange}
+          value=${this.inputTextarea}>
         </d2l-input-textarea>
       </div>
 
