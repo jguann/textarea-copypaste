@@ -92,7 +92,7 @@ export class SamplePage extends LitElement {
         </br>
         <div>
           <div><label for="pastedTextarea">Pasted Textarea:</label></div>
-          <textarea id="pastedTextarea" readonly>${this.pastedTextarea}</textarea>
+          <textarea id="pastedTextarea" rows=6 readonly>${this.pastedTextarea}</textarea>
         </div>
       </div>  
     
